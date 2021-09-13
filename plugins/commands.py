@@ -25,10 +25,10 @@ NB: Note the bot is admin in the channel
 
 
 START_BUTTON = [[
-         InlineKeyboardButton("Support Group" url="t.me/Mo_Tech_Group"),
-         InlineKeyboardButton("Update Channel" url="t.me/Mo_Tech_YT")
+         InlineKeyboardButton("Support Group", url="t.me/Mo_Tech_Group"),
+         InlineKeyboardButton("Update Channel", url="t.me/Mo_Tech_YT")
          ],[
-         InlineKeyboardButton("How To Own This Bot" url="t.me/Mo_Tech_Group")
+         InlineKeyboardButton("How To Own This Bot", url="t.me/Mo_Tech_Group")
          ]]
 
 
