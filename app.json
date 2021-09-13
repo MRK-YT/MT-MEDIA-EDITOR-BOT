@@ -1,7 +1,7 @@
 {
   "name": "MEDIA-EDITOR-BOT",
   "description": "Bot edit or replace Media's From channel post's",
-  "repository": "https://github.com/Jack-of-tg/MEDIA-EDITOR-BOT",
+  "repository": "https://github.com/MRK-YT/MT-MEDIA-EDITOR-BOT",
   "keywords": ["MEDIA-EDITOR-BOT", "file or media", "edit","telegram bot"],
   "env": {
      "TG_BOT_TOKEN": {
@@ -17,7 +17,7 @@
       "value": ""
     },
     "AUTH_USERS": {
-      "description": "Array to store users who are authorized to use the bot",
+      "description": "Array to store users who are authorized to use the bot @MT_ID_Bot",
       "value": "882718910"
     }
    },
