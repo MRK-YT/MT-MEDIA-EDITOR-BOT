@@ -1,6 +1,8 @@
 import os
 
-class Config(object):
+
+
+class Config((object)):
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
@@ -10,6 +12,6 @@ class Config(object):
 
     API_HASH = os.environ.get("API_HASH", "")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = {int(x) for x in os.environ.get("AUTH_USERS", "").split()}
   
     
